@@ -8,10 +8,9 @@ setup(
 
     install_requires=[
         'matplotlib==1.5.3',
-        'numpy',
-        'pandas',
-        'scipy',
-        'tensorflow',
+        'pandas==0.19.0',
+        'scipy==0.18.1',
+        'tensorflow==0.12.1',
     ],
     extras_require={
         'GPU': ['tensorflow-gpu']
