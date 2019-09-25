@@ -79,6 +79,7 @@ This configuration expects the cyclist metadata `.mat` files (`cyclist_n.mat`) t
 # Citations
 If you found this package useful in your research please use the following citation for the paper (Towards Machine Learning on data from Professional Cyclists)[https://arxiv.org/abs/1808.00198]:
 
+```
 @inproceedings{hilmkilcycling,
   title={Towards machine learning on data from professional cyclists},
   author={Hilmkil, Agrin and Ivarsson, Oscar and Johansson, Moa and Kuylenstierna, Dan and van Erp, Teun},
@@ -88,3 +89,4 @@ If you found this package useful in your research please use the following citat
   address={Opatija, Croatia},
   year={2018}
 }
+```
