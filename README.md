@@ -48,6 +48,15 @@ The [devices.cfg](procyclist/config/devices.cfg) comes with settings for SRM and
 - Relative path from package to file specifying names for each column in the matrix (`parameters`)
 - A [filename pattern](https://docs.python.org/3/library/glob.html) which should match all filenames produced by the device ('filename')
 
+### Specify collection / device
+Once the collections and devices are specified, configure which ones to use for training in [procyclist/dataset.py](procyclist/dataset.py#L47). E.g.: 
+```python
+sessions = Sessions.create(
+  name='collection-name',
+  device='device-name',
+  ...
+)
+```
 
 ## Structure
 
