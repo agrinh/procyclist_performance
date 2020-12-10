@@ -10,5 +10,5 @@ python-dateutil==2.5.3
 pytz==2016.7
 scipy==0.18.1
 six==1.10.0
-tensorflow==0.11.0rc0
+tensorflow==2.4.0rc4
 xlrd==1.0.0
